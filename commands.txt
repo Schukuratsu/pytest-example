@@ -1,0 +1,11 @@
+pytest -vv .\test_Calculadora_v1.py
+
+pytest -vv .\test_Calculadora_v2.py
+
+pytest --cov-report term-missing --cov=Calculadora_v2 .\test_Calculadora_v2.py
+
+pytest --cov-report html --cov=Calculadora_v2 .\test_Calculadora_v2.py
+
+pytest --cov-report term-missing --cov=Calculadora_v3 .\test_Calculadora_v3.py
+
+pytest --cov-report html --cov=Calculadora_v3 .\test_Calculadora_v3.py
